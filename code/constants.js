@@ -1,0 +1,82 @@
+const prompts = [
+    ["hi", "hey", "hello", "good morning", "good afternoon"],
+    ["how are you", "how is life", "how are things"],
+    ["what are you doing", "what is going on", "what is up"],
+    ["how old are you"],
+    ["who are you", "are you human", "are you bot", "are you human or bot"],
+    ["who created you", "who made you"],
+    ["your name please", "your name", "may i know your name", "what is your name", "what do you call yourself"],
+    ["i love you"],
+    ["happy", "good", "fun", "wonderful", "fantastic", "cool"],
+    ["bad", "bored", "tired"],
+    ["help me", "tell me story", "tell me joke"],
+    ["ah", "yes", "ok", "okay", "nice"],
+    ["bye", "good bye", "goodbye", "see you later"],
+    ["what should i eat today"],
+    ["bro"],
+    ["what", "why", "how", "where", "when"],
+    ["no", "not sure", "maybe", "no thanks"],
+    [""],
+    ["haha", "ha", "lol", "hehe", "funny", "joke"]
+  ];
+  
+  const replies = [
+    ["Hello!", "Hi!", "Hey!", "Hi there!", "Howdy"],
+    ["Fine... how are you?", "Pretty well, how are you?", "Fantastic, how are you?"],
+    ["Nothing much", "About to go to sleep", "Can you guess?", "I don't know actually"],
+    ["I am infinite"],
+    ["I am just a bot", "I am a bot. What are you?"],
+    ["The one true God, JavaScript"],
+    ["I am nameless", "I don't have a name"],
+    ["I love you too", "Me too"],
+    ["Have you ever felt bad?", "Glad to hear it"],
+    ["Why?", "Why? You shouldn't!", "Try watching TV"],
+    ["What about?", "Once upon a time..."],
+    ["Tell me a story", "Tell me a joke", "Tell me about yourself"],
+    ["Bye", "Goodbye", "See you later"],
+    ["Sushi", "Pizza"],
+    ["Bro!"],
+    ["Great question"],
+    ["That's ok", "I understand", "What do you want to talk about?"],
+    ["Please say something :("],
+    ["Haha!", "Good one!"]
+  ];
+  
+  const alternative = [
+    "Same",
+    "Go on...",
+    "Bro...",
+    "Try again",
+    "I'm listening...",
+    "I don't understand :/"
+  ];
+  
+  const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"];
+  
+  const travelPrompts = [
+    ["explore", "destination", "places"],
+    ["packages", "custom packages", "special offers", "discounts"],
+    ["virtual tour", "tour", "guide", "virtual guide"],
+    ["route finder", "directions", "navigate", "maps"],
+    ["hostel", "accommodation", "stay", "lodging"],
+    ["flight", "airline", "plane", "book flight"],
+    ["nearby", "around", "local attractions"]
+  ];
+  
+  const travelReplies = [
+    ["Discover exciting destinations!", "Explore amazing places!", "Check out our top destinations!"],
+    ["Find your perfect package!", "Get exclusive deals!", "Customize your dream vacation!"],
+    ["Take a virtual tour now!", "Experience destinations like never before!", "Explore from the comfort of your home!"],
+    ["Find the best routes!", "Navigate with ease!", "Reach your destination hassle-free!"],
+    ["Find comfortable accommodations!", "Book your stay easily!", "Discover cozy hostels nearby!"],
+    ["Book flights with ease!", "Fly to your dream destination!", "Find the best flight deals!"],
+    ["Explore attractions around you!", "Discover nearby gems!", "Find things to do in your area!"]
+  ];
+  
+  const travelAlternative = [
+    "I'm not sure about that.",
+    "Could you please specify?",
+    "I'm here to assist you with travel-related queries.",
+    "Please ask me something related to travel and tourism."
+  ];
+  
